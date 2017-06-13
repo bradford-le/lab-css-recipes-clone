@@ -1,0 +1,83 @@
+/*Brad Le*/
+/**{
+  border: 1px solid red;
+}*/
+
+#img-container {
+  position: relative;
+}
+ h1 {
+ color: white;
+ font-size: 60px;
+}
+#applePie {
+  display:block;
+  margin: auto;
+  width: 70%;
+  height: 400px;
+}
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+#RecipeInfo {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+ul {
+  list-style: none;
+}
+ul li:before {
+  content: "-";
+}
+#cookInfo {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+html, main {
+  margin: 0;
+}
+.container {
+  padding-top: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+ol {
+  counter-reset: item;
+}
+ol li {
+  list-style: none;
+}
+ol li::before {
+  content: counter(item) ") ";
+  counter-increment: item;
+}
+p {
+  font-size: 18px;
+}
+h2 {
+  font-size: 22px;
+}
+
+#applepie {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#frenchsoup {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../french-onion-soup-starter-code/images/soup.jpg");
+  background-size: cover;
+  background-position: center;
+}
